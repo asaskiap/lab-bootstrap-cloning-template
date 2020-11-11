@@ -78,16 +78,16 @@
     color: whitesmoke;
 }
 
-#black .col-4 {
+#black .col-lg-4 {
     padding: 5rem;
 }
 
-#black .col-4 h3 {
+#black .col-lg-4 h3 {
     font-size: 2.3rem;
     font-weight: lighter;
 }
 
-#black .col-8 {
+#black .col-lg-8 {
     padding: 5rem;
     font-size: 1.3rem;
 }
@@ -195,12 +195,9 @@
         font-size: 1rem;
     }
     #black {
-        flex-direction: column;
         margin: 0 auto 0 1rem;
+        height: auto;
         padding: 1rem;
-    }
-    #black h3 {
-        margin-bottom: 2rem;
     }
     #hiringTxt {
         margin-bottom: 2rem;
