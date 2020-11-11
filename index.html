@@ -18,24 +18,27 @@
       does not mis-format this specific file
     -->
     <!-- prettier-ignore -->
-    <nav class="navbar border-bottom">
-        <div class="logo"><img src="./images/logo.svg" alt="logo"></div>
-        <div style="width: 45%; ">
-            <button class="btn">Showcase</button>
-            <button class="btn">Services</button>
-            <button class="btn">About</button>
-            <button class="btn">Careers</button>
-            <button class="btn">Labs</button>
-            <button class="btn">Contact</button></div>
+    <div class="topsection">
+        <nav class="navbar border-bottom">
+            <div class="logo"><img src="./images/logo.svg" alt="logo"></div>
+            <div id="navbuttons" class="float-lg-right">
+                <button class="btn">Showcase</button>
+                <button class="btn">Services</button>
+                <button class="btn">About</button>
+                <button class="btn">Careers</button>
+                <button class="btn">Labs</button>
+                <button class="btn">Contact</button></div>
 
-    </nav>
-    <div class="jumbotron" id="jumb" style="background-color: white;">
+        </nav>
+        <div class="jumbotron" id="jumb" style="background-color: white;">
 
-        <h1 class="display-4">Your go-to <br> digital agency</h1>
+            <h1 class="display-4">Your go-to <br> digital agency</h1>
+        </div>
+        <section id="sec1">
+            <h3>Significa is a digital design-led agency mainly <br> focused on Product Development.</h3>
+        </section>
     </div>
-    <section id="sec1">
-        <h3>Significa is a digital design-led agency mainly <br> focused on Product Development.</h3>
-    </section>
+
     <div class="row" id="cardRow">
         <div class="col-4">
             <div class="card">
@@ -75,16 +78,16 @@
         </div>
     </div>
     <div class="row" id="digitalProducts">
-        <div class="col-5">
+        <div class="col-5-lg">
             <h3 class="font-weight-lighter">We build digital <br> products</h3>
         </div>
-        <div class="col-7" style="font-size: 1.3rem;">
+        <div class="col-7-lg" style="font-size: 1.3rem;">
             <p style="width: 80%;">Having a design-led approach to what we do defines who we are. We take on products from inception to launch, from business model to people's pocket, from wireframe to continuous deployment.</p>
         </div>
     </div>
     <div class="row" id="lists">
 
-        <div class="col">
+        <div class="col-lg">
             <p id="listTitle"> Strategy</p>
             <ul class="list-group">
                 <li class="list-group-item border-0"><svg style="color:blue" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -104,7 +107,7 @@
 </svg>Product management</li>
             </ul>
         </div>
-        <div class="col">
+        <div class="col-lg">
 
             <p id="listTitle"> Product Design</p>
             <ul class="list-group">
@@ -129,7 +132,7 @@
 </svg>Motion & Video</li>
             </ul>
         </div>
-        <div class="col">
+        <div class="col-lg">
             <p id="listTitle"> Development</p>
 
             <ul class="list-group">
@@ -155,10 +158,10 @@
 
 
     <div class="row" id="black">
-        <div class="col-4">
+        <div class="col-4-lg">
             <h3>What's new on Significa Labs</h3>
         </div>
-        <div class="col-8">
+        <div class="col-8-lg">
             <img src="./images/Screenshot (485).png" alt="medium" style="height: 1rem;" class="rounded-sm">
             <p>Automating releases for UI Kits — How to automate release logs and builds for your style guides</p>
             <p class="smallerText"> Tutorial on Medium</p>
@@ -191,31 +194,31 @@
         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
       </svg></div>
 
-    <div class="row" id="imageRow">
-        <div class="col-4"> <img src="./images/4.png" alt="image4" width="350rem;"></div>
+    <div class="row-lg" id="imageRow">
+        <div class="col-4 notInResp"> <img src="./images/4.png" alt="image4" width="350rem;"></div>
         <div class="col-4"><img src="./images/5.png" alt="image5" width="350rem;"></div>
-        <div class="col-4"><img src="./images/6.png" alt="image5" width="350rem;"></div>
+        <div class="col-4 notInResp"><img src="./images/6.png" alt="image5" width="350rem;"></div>
     </div>
 
-    <div class="row" style="margin: 10rem 0 10rem 0;">
+    <div class="row" id="footer" style="margin: 10rem 0 10rem 0;">
 
-        <div class="col-2">
+        <div class="col-lg-2 col-sm-6">
 
             <div><img height="25rem;" src="./images/Screenshot (490).png" alt=""></div>
-            <p style="height: 1rem;"></p>
+            <p style="height: 1rem;" class="notInResp"></p>
             <p>Legal © 2019</p>
         </div>
-        <div class="col-2"></div>
+        <div class="col-2 notInResp"></div>
 
-        <div class="col-2">
+        <div class="col-lg-2 col-sm-6 float-sm-right">
             <p>Say</p>
-            <p style="height: 1rem;"></p>
+            <p style="height: 1rem;" class="notInResp"></p>
             <p>hello@significa.co </p>
             <p>(+351) 226 001 751</p>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-sm-6">
             <p>Links</p>
-            <p style="height: 1rem;"></p>
+            <p style="height: 1rem;" class="notInResp"></p>
             <p class="text-muted">Home</p>
             <p>Showcase</p>
             <p>Services</p>
@@ -224,13 +227,13 @@
             <p>Labs</p>
             <p>Contact</p>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-sm-6">
             <p>Network</p>
-            <p style="height: 1rem;"></p>
+            <p style="height: 1rem;" class="notInResp"></p>
             <p>Coletiv</p>
             <p>Adamant</p>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-sm-8">
             <p>Follow us</p>
             <p style="height: 1rem;"></p>
             <div>
