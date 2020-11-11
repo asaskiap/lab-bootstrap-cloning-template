@@ -1,1 +1,130 @@
 /* Your own custom styles should be here */
+
+.navbar {
+    height: 4rem;
+    padding-bottom: 0;
+}
+
+.logo {
+    margin-left: 2rem;
+}
+
+#jumb {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    background-color: white;
+    width: 40%;
+}
+
+#jumb h1 {
+    font-size: 3.5rem;
+    font-weight: 350;
+}
+
+#sec1 {
+    margin: 3rem 3rem 4rem 3rem;
+}
+
+#sec1 h3 {
+    font-size: 1.7rem;
+    font-weight: 350;
+}
+
+#cardRow {
+    margin: 2rem;
+}
+
+.card {
+    width: 20rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.smallerText {
+    font-size: smaller;
+}
+
+#digitalProducts {
+    margin: 10rem 2rem 0 2rem;
+}
+
+#digitalProducts h3 {
+    font-size: 2.3rem;
+}
+
+#lists {
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 4rem 5rem 4rem 15rem;
+}
+
+#lists li {
+    margin: 0;
+    padding: 0.1rem;
+}
+
+#listTitle {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+#black {
+    height: 40rem;
+    background-color: rgb(34, 34, 34);
+    color: whitesmoke;
+}
+
+#black .col-4 {
+    padding: 5rem;
+}
+
+#black .col-4 h3 {
+    font-size: 2.3rem;
+    font-weight: lighter;
+}
+
+#black .col-8 {
+    padding: 5rem;
+    font-size: 1.3rem;
+}
+
+#hiring {
+    margin: 5rem;
+    font-size: 2.3rem;
+    font-weight: lighter;
+}
+
+#hiringTxt {
+    margin-top: 6rem;
+    font-size: 1.3rem;
+    padding-left: 5rem;
+    max-width: 45rem;
+}
+
+#arrowTxt1 {
+    color: blue;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8rem;
+    font-size: 1.3rem;
+}
+
+#arrowTxt2 {
+    color: gray;
+}
+
+#arrowTxt3 {
+    color: blue;
+    font-size: 1.3rem;
+    width: 80%;
+    text-align: center;
+    margin: 1rem 3rem;
+}
+
+#imageRow {
+    margin: 8rem 3rem;
+}
+
+.text-muted {
+    color: lightgray;
+}
